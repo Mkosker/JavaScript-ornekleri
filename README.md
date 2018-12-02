@@ -1,1 +1,1 @@
-# JavaScript-rnekleri
+# JavaScript-ornekleri
