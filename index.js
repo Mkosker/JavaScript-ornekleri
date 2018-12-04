@@ -31,3 +31,8 @@ for (sayac=4; sayac>=0; sayac--) {
     toplam=toplam+sayilar [sayac]
     console.log (toplam)
 }
+// 2 ye bölümünden kalanı sıfır olanları ekrana yaz
+for (sayac=0; sayac<5; sayac++){
+    if(sayilar [sayac]%2==0)
+        console.log (sayilar [sayac])
+}
