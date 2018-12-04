@@ -7,3 +7,9 @@ while (sayac<meyveler.length) {
     }
     sayac +=1
 }
+// for döngüsü ornegi
+for (sayac=0; sayac<meyveler.length; sayac++) {
+    if(meyveler [sayac]=='karpuz') {
+        console.log (meyveler [sayac])
+    }
+}
