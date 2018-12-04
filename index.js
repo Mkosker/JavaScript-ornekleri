@@ -18,3 +18,10 @@ for (sayac=0; sayac<meyveler.length; sayac++) {
     if ( meyveler [sayac].length>4)
         console.log (meyveler [sayac])
 }
+const sayilar= [1, 2, 3, 4, 5]
+var sayac, toplam=0
+// sayıların bastan toplamı
+for (sayac=0; sayac<5; sayac++) {
+    toplam=toplam+sayilar [sayac]
+    console.log (toplam)
+}
