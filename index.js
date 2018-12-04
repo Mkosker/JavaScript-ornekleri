@@ -13,3 +13,8 @@ for (sayac=0; sayac<meyveler.length; sayac++) {
         console.log (meyveler [sayac])
     }
 }
+// Dört harften büyük olanları yazdırsın
+for (sayac=0; sayac<meyveler.length; sayac++) {
+    if ( meyveler [sayac].length>4)
+        console.log (meyveler [sayac])
+}
