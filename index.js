@@ -25,3 +25,9 @@ for (sayac=0; sayac<5; sayac++) {
     toplam=toplam+sayilar [sayac]
     console.log (toplam)
 }
+// sayıların sondan toplamı
+toplam=0
+for (sayac=4; sayac>=0; sayac--) {
+    toplam=toplam+sayilar [sayac]
+    console.log (toplam)
+}
