@@ -36,3 +36,26 @@ for (sayac=0; sayac<5; sayac++){
     if(sayilar [sayac]%2==0)
         console.log (sayilar [sayac])
 }
+// JSON tipi ornek
+var ulkeler= [
+    {
+        isim:'TÜRKİYE',
+        dil: 'TÜRKÇE',
+        kod: 1
+    },
+    {
+        isim: 'İNGİLTERE',
+        dil: 'İNGİLİZCE',
+        kod: 2
+    },
+    {
+        isim:'RUSYA',
+        dil:'RUSÇA',
+        kod: 3
+    }
+]
+for (sayac=0; sayac<3; sayac++)
+ {
+     if(ulkeler[sayac].dil=='TÜRKÇE')
+         console.log (ulkeler [sayac].kod)
+ }
