@@ -59,3 +59,45 @@ for (sayac=0; sayac<3; sayac++)
      if(ulkeler[sayac].dil=='TÜRKÇE')
          console.log (ulkeler [sayac].kod)
  }
+// JSON tipi örnek sayılardan çift olanların kodunu yazdır
+var rakamlar= [
+    {
+        sayi: 1003,
+        kodu: 1
+    },
+    {
+        sayi: 218,
+        kodu: 2
+    },
+    {
+        sayi: 106,
+        kodu: 3
+    },
+    {
+        sayi: 43,
+        kodu: 4
+    },
+    {
+        sayi: 12,
+        kodu: 5
+    }  
+]
+for (sayac=0; sayac<5; sayac++)
+    {
+        if (rakamlar [sayac].sayi%2==0)
+            console.log (rakamlar [sayac].kodu)
+    }
+    // 1 lerin çarpım tablosu
+var carpim=1
+var sonuc
+    for (sayac=0; sayac<=10; sayac++) {
+        sonuc=carpim*sayac
+        console.log (carpim, "*", sayac, "=", sonuc)
+    }
+        // 2 lerin çarpım tablosu
+var carpim=2
+var sonuc
+    for (sayac=0; sayac<=10; sayac++) {
+        sonuc=carpim*sayac
+        console.log (carpim, "*", sayac, "=", sonuc)
+    }
