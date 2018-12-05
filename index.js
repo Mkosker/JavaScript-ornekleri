@@ -101,3 +101,9 @@ var sonuc
         sonuc=carpim*sayac
         console.log (carpim, "*", sayac, "=", sonuc)
     }
+    // kelimeler kac harften olusuyor ?
+    const hayvanlar= ['ayı', 'kurt', 'panda', 'denizanası', 'fokbalığı']
+    for(sayac=0; sayac<5; sayac++) {
+        console.log (hayvanlar [sayac].length)
+    }
+    
