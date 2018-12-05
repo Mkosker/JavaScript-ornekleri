@@ -102,8 +102,33 @@ var sonuc
         console.log (carpim, "*", sayac, "=", sonuc)
     }
     // kelimeler kac harften olusuyor ?
-    const hayvanlar= ['ayı', 'kurt', 'panda', 'denizanası', 'fokbalığı']
+    const hayvanlar= ['ayı', 'kurt', 'panda', 'denizanası', 'fok balığı']
     for(sayac=0; sayac<5; sayac++) {
-        console.log (hayvanlar [sayac].length)
+        console.log (rePlace2 (hayvanlar[sayac]))
     }
-    
+    function rePlace(cumle) {
+        var aCumle= [];
+        var bcumle= "";
+        aCumle=cumle;
+        for (var i=0; i<cumle.length; i++) {
+            if (aCumle[i]!=" ")
+                bcumle+=aCumle [i]
+        }
+        return bcumle
+    }
+    function rePlace2(kelime) {
+        var dkelime= [];
+        var dharf= "";
+        dkelime=kelime;
+        for(var t=0; t<kelime.length; t++) {
+            if (dkelime[t]=="a")    
+            dharf+="b"
+            else if (dkelime [t]=="k")
+            dharf+="c"
+            else if (dkelime [t]=="o")
+            dharf+="v"
+            else 
+                dharf+=dkelime [t]
+        }
+        return dharf
+    }
